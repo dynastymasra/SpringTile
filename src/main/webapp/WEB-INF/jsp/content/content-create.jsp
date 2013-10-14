@@ -1,6 +1,14 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
+<%--
+- Author   : Dynastymasra
+- Name     : Dimas Ragil T
+- Email    : dynastymasra@gmail.com
+- LinkedIn : http://www.linkedin.com/in/dynastymasra
+- Blogspot : dynastymasra.wordpress.com | dynastymasra.blogspot.com
+--%>
+
 <div class="alert alert-info">Input Data Here</div>
 <div class="hero-unit">
     <c:url var="mahasiswaUrl" value="/mahasiswa"/>
@@ -32,6 +40,7 @@
 
         <div class="control-group">
             <label class="control-label"></label>
+
             <div class="controls">
                 <button class="btn btn-warning" type="reset"><i class="icon-chevron-left"></i>Reset</button>
                 <button class="btn btn-primary" type="submit"><i class="icon-chevron-right"></i>Save</button>

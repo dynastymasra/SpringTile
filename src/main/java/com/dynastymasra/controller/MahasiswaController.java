@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
- * User : Dynastymasra
- * Name : Dimas Ragil T
- * Email: dynastymasra@gmail.com
- * Date : 10/14/13
- * Time : 10:12 PM
+ * Author   : Dynastymasra
+ * Name     : Dimas Ragil T
+ * Email    : dynastymasra@gmail.com
+ * LinkedIn : http://www.linkedin.com/in/dynastymasra
+ * Blogspot : dynastymasra.wordpress.com | dynastymasra.blogspot.com
  */
 
 @Controller

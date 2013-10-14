@@ -1,3 +1,11 @@
+<%--
+- Author   : Dynastymasra
+- Name     : Dimas Ragil T
+- Email    : dynastymasra@gmail.com
+- LinkedIn : http://www.linkedin.com/in/dynastymasra
+- Blogspot : dynastymasra.wordpress.com | dynastymasra.blogspot.com
+--%>
+
 <div id="myCarousel" class="carousel slide">
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
