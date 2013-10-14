@@ -16,7 +16,7 @@
     <mvc:default-servlet-handler/>
 
     <!-- Activates various annotations to be detected in bean classes -->
-    <context:annotation-config />
+    <context:annotation-config/>
 
     <!-- Scans the classpath for annotated components that will be auto-registered as Spring beans.
      For example @Controller and @Service. Make sure to set the correct base-package-->
@@ -24,8 +24,8 @@
 
     <!-- Configures the annotation-driven Spring MVC Controller programming model.
     Note that, with Spring 3.0, this tag works in Servlet MVC only!  -->
-    <mvc:annotation-driven />
+    <mvc:annotation-driven/>
 
     <!-- Import Tiles-related configuration -->
-    <import resource="tiles-context.xml" />
+    <import resource="tiles-context.xml"/>
 </beans>

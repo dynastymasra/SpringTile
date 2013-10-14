@@ -22,4 +22,8 @@
         <put-attribute name="menu-content" value="/WEB-INF/jsp/menu/menu-delete.jsp"/>
         <put-attribute name="main-content" value="/WEB-INF/jsp/content/content-delete.jsp"/>
     </definition>
+    <definition name="list-tile" extends="main-tile">
+        <put-attribute name="menu-content" value="/WEB-INF/jsp/menu/menu-create.jsp"/>
+        <put-attribute name="main-content" value="/WEB-INF/jsp/content/content-list.jsp"/>
+    </definition>
 </tiles-definitions>

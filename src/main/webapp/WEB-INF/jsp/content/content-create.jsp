@@ -3,37 +3,33 @@
 
 <div class="alert alert-info">Input Data Here</div>
 <div class="hero-unit">
-    <form class="form-horizontal">
+    <c:url var="mahasiswaUrl" value="/mahasiswa"/>
+    <form:form modelAttribute="mahasiswa" method="post" action="${mahasiswaUrl}" class="form-horizontal">
         <div class="control-group">
-            <label class="control-label">NIM</label>
+            <form:label path="nim" class="control-label">NIM</form:label>
             <div class="controls">
-                <input type="text">
+                <form:input path="nim" type="text"/>
             </div>
         </div>
         <div class="control-group">
-            <label class="control-label">Name</label>
+            <form:label path="name" class="control-label">Name</form:label>
             <div class="controls">
-                <input type="text">
+                <form:input path="name" type="text"/>
             </div>
         </div>
         <div class="control-group">
-            <label class="control-label" for="inputEmail">Email</label>
+            <form:label path="email" class="control-label" for="inputEmail">Email</form:label>
             <div class="controls">
-                <input type="text" id="inputEmail">
+                <form:input path="email" type="text"/>
             </div>
         </div>
         <div class="control-group">
-            <label class="control-label">Interest</label>
+            <form:label path="jurusan" class="control-label">Jurusan</form:label>
             <div class="controls">
-                <select type="text">
-                    <option value="JSC">JSC</option>
-                    <option value="KSWeb">KSWeb</option>
-                    <option value="KSL">KSL</option>
-                    <option value="IDC">IDC</option>
-                    <option value="KSMulmed">KSMulmed</option>
-                </select>
+                <form:input path="jurusan" type="text"/>
             </div>
         </div>
+
         <div class="control-group">
             <label class="control-label"></label>
             <div class="controls">
@@ -41,5 +37,5 @@
                 <button class="btn btn-primary" type="submit"><i class="icon-chevron-right"></i>Save</button>
             </div>
         </div>
-    </form>
+    </form:form>
 </div>
